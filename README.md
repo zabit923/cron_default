@@ -12,11 +12,12 @@
 1) установка
 
    sudo apt update
+   __________________________________________
    sudo apt install cron
 
 
 
-2) Создание файла скрипта
+3) Создание файла скрипта
 
    sudo nano /path/to/backup_script.sh
 
