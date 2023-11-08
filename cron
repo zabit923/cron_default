@@ -1,9 +1,0 @@
-export PGPASSWORD="ПАРОЛЬ"
-
-timestamp=$(date +"%Y%m%d%H%M%S")
-backup_dir="/путь/до/папки_с_бэкапами"
-backup_file="$backup_dir/db_backup_$timestamp.sql"
-
-pg_dump -h 127.0.0.1 -U user -d db -f $backup_file
-
-unset PGPASSWORD
