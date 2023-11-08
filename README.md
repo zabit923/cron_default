@@ -20,7 +20,7 @@
 
    sudo nano /path/to/backup_script.sh
 
-скрипт:
+
    export PGPASSWORD="PASSWORD_PG"
 
    timestamp=$(date +"%Y%m%d%H%M%S")
