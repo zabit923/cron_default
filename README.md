@@ -20,6 +20,7 @@
 
    sudo nano /path/to/backup_script.sh
 
+   __________________________________________
 
    export PGPASSWORD="PASSWORD_PG"
 
@@ -31,6 +32,7 @@
   
    unset PGPASSWORD
 
+   __________________________________________
 
 
 4) Разрешение для скрипта
